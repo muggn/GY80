@@ -23,7 +23,7 @@ To get values from all sensors:
 See below for the GY80_scaled type.
 
 ### Measuring functions:
-'''
+
     GY80_scaled read_scaled();
 	returns scaled values from all sensors
     GY80_single_scaled m_read_scaled();
@@ -40,9 +40,9 @@ See below for the GY80_scaled type.
 	with time
     float t_read_scaled();
 	get temperature value in degree celsius
-'''
+	
 ### Measuring functions [raw values]:
-'''
+
     GY80_raw read_raw();
 	returns raw values from all sensors
     GY80_single_raw m_read_raw();
@@ -55,9 +55,9 @@ See below for the GY80_scaled type.
 	returns raw pressure value
     uint16_t t_read_raw();
 	get raw temperature value
-'''
+
 ### Functions for configuration:
-'''
+
     void m_set_scale(uint8_t scale);
 	set magnetometer full scale range [values in µT]
 		GY80_m_scale_88
@@ -100,10 +100,10 @@ See below for the GY80_scaled type.
 		GY80_g_scale_250
 		GY80_g_scale_500
 		GY80_g_scale_2000
-'''
+
 
 ### Struct types
-'''
+
 struct GY80_scaled
 {
     float a_x;
@@ -153,7 +153,7 @@ struct GY80_single_scaled
     float y;
     float z;
 };
-'''
+
 
 
 
