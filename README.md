@@ -103,56 +103,49 @@ See below for the GY80_scaled type.
 
 
 ### Struct types
+	
+	GY80_scaled
+	    float a_x;
+	    float a_y;
+	    float a_z;
+	
+	    float m_x;
+	    float m_y;
+	    float m_z;
+	
+	    float g_x;
+	    float g_y;
+	    float g_z;
+	
+	    float p;
+	    float t;
+	
+	GY80_raw
+	    int16_t a_x;
+	    int16_t a_y;
+	    int16_t a_z;
+	
+	    int16_t m_x;
+	    int16_t m_y;
+	    int16_t m_z;
+	
+	    int16_t g_x;
+	    int16_t g_y;
+	    int16_t g_z;
+	
+	    uint32_t p;
+	    uint16_t t;
 
-struct GY80_scaled
-{
-    float a_x;
-    float a_y;
-    float a_z;
-
-    float m_x;
-    float m_y;
-    float m_z;
-
-    float g_x;
-    float g_y;
-    float g_z;
-
-    float p;
-    float t;
-};
-
-struct GY80_raw
-{
-    int16_t a_x;
-    int16_t a_y;
-    int16_t a_z;
-
-    int16_t m_x;
-    int16_t m_y;
-    int16_t m_z;
-
-    int16_t g_x;
-    int16_t g_y;
-    int16_t g_z;
-
-    uint32_t p;
-    uint16_t t;
-};
-
-struct GY80_single_raw
-{
-    int16_t x;
-    int16_t y;
-    int16_t z;
-};
-
-struct GY80_single_scaled
-{
-    float x;
-    float y;
-    float z;
-};
+	
+	GY80_single_raw
+	    int16_t x;
+	    int16_t y;
+	    int16_t z;
+	
+	GY80_single_scaled
+	    float x;
+	    float y;
+	    float z;
 
 
 
