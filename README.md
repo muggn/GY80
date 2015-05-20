@@ -147,6 +147,8 @@ See below for the GY80_scaled type.
 	    float y;
 	    float z;
 
-
-
-
+## Warning!
+I have never tested if the values given from this lib are correct and/or precise!!
+This program is a free software and there is NO WARRANTY.
+No restrictions on use. You can use, modify and redistribute it for
+personal, non-profit or commercial use UNDER YOUR RESPONSIBILITY.
