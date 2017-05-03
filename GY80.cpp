@@ -6,7 +6,6 @@ GY80::GY80()
     m_scale = 1;
     //a_scale = 0;
     g_scale = 1;
-    g_scale_z = 1;
     m_scale_values[0] = 0;
     m_scale_values[1] = 100/1100;
     m_scale_values[2] = 100/855;
